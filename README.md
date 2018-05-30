@@ -6,7 +6,7 @@ In this lesson you will learn that WordPress themes often include a file named f
 
 ## Objectives
 
-After completing this lesson, you will be able to: test
+After completing this lesson, you will be able to:
 
 *   Recognize and identify the uses of functions.php in comparison to using plugins to add functionality.
 *   Explain when and when not to use functions.php.
