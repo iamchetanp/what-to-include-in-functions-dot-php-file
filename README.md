@@ -6,7 +6,7 @@ In this lesson you will learn that WordPress themes often include a file named f
 
 ## Objectives
 
-After completing this lesson, you will be able to:
+After completing this lesson, you will be able to: test
 
 *   Recognize and identify the uses of functions.php in comparison to using plugins to add functionality.
 *   Explain when and when not to use functions.php.
@@ -88,7 +88,8 @@ We could infer that if the custom functionality relates to visual presentation, 
 function themename_custom_excerpt_length( $length ) { 
     return 40; //number of words in excerpt.
 } 
-add_filter( 'excerpt_length', 'themename_custom_excerpt_length'); ?>
+add_filter( 'excerpt_length', 'themename_custom_excerpt_length');
+?>
 ```
 2.  Create a test blog post with a long excerpt. Verify it works correctly, then switch themes.
 3.  Notice that the functionality no longer exists because it was placed in a specific theme's functions.php file.
